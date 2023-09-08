@@ -1,39 +1,39 @@
 ---
-title: ダウンロード
-heading: ダウンロード
-description: バーチャルモーションキャプチャーのダウンロードページです
+title: 下载
+heading: 下载
+description: VMC下载页面
 pricing_table:
   - name: BOOTHから
     color: "#4a4a4a"
     bgcolor: "#5555f0"
     features:
-      - text: 無料でダウンロードできます
+      - text: 免费下载
         highlight: true
-      - text: 気に入って頂けたらBOOSTお待ちしています
+      - text: 
         highlight: false
     call_to_action:
       link: https://sh-akira.booth.pm/items/999760
-      text: ダウンロードページへ
-  - name: pixivFANBOXから
+      text: 下载页面
+  - name: pixivFANBOX
     color: "#4a4a4a"
     bgcolor: "#f05555"
     features:
-      - text: 先行リリース版(有料)
+      - text: 新功能尝试版(付费支持)
         highlight: true
-      - text: 支援者限定の新機能先行配信もあります
+      - text: 针对付费用户的新功能尝试
         highlight: false
     call_to_action:
       link: https://akira.fanbox.cc/
-      text: 支援ページへ
+      text: 付费页面
 faq:
-  - question: 使用に料金はかかりますか？
-    answer: 無料で使用することが出来ます。気に入って頂けたら支援もお待ちしています。
-  - question: 使用する際に表記は必要ですか？
-    answer: 必要ありませんが、して頂けると嬉しいです。
-  - question: 質問したいことがあります
-    answer: <a target="_blank" href="https://twitter.com/sh_akira">Twitter</a>でお問い合わせください。
-  - question: 支援先を教えてください
-    answer: <a target="_blank" href="https://akira.fanbox.cc/">pixivFANBOX</a>、<a target="_blank" href="https://sh-akira.booth.pm/items/999760">BOOTH</a>、<a target="_blank" href="https://www.amazon.co.jp/registry/wishlist/331R041P8K6BV/ref=cm_sw_r_cp_ep_ws_CxeJBb6XYBE62">欲しいものリスト</a>があります。
+  - question: 可以免费使用吗？
+    answer: 是的，免费使用。如果您觉得软件好，也可以表示一定支持。
+  - question: 使用时需要特别提及软件吗？
+    answer: 不需要、当然很开心您能提及。
+  - question: 如果有其他问题
+    answer: <a target="_blank" href="https://twitter.com/sh_akira">Twitter</a>请在这里提问。
+  - question: 付费支持
+    answer: <a target="_blank" href="https://akira.fanbox.cc/">pixivFANBOX</a>、<a target="_blank" href="https://sh-akira.booth.pm/items/999760">BOOTH</a>、<a target="_blank" href="https://www.amazon.co.jp/registry/wishlist/331R041P8K6BV/ref=cm_sw_r_cp_ep_ws_CxeJBb6XYBE62">想要的物品清单</a>
 ---
 <div class="plans">
 	{% for plan in page.pricing_table %}
@@ -53,7 +53,7 @@ faq:
 </div>
 
 {% if page.faq %}
-	<h2>使用に関する FAQ</h2>
+	<h2>使用方式 FAQ</h2>
 	<dl class="faq">
 		{% for item in page.faq %}
 			<div>
