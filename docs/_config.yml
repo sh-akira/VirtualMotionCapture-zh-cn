@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: バーチャルモーションキャプチャー
+title: VirtualMotionCapture
 url: "https://vmc.info"
 baseurl:
 google_analytics_key:
@@ -23,6 +23,7 @@ social:
     - https://twitter.com/sh_akira
     - https://github.com/sh-akira
     - https://akira.fanbox.cc/
+    - https://www.patreon.com/sh_akira
 
 # -----
 # Build
